@@ -1,27 +1,31 @@
-/* CSS Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing:0;
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
 }
-
-a {
-    text-decoration: none;
-    color: inherit;
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
 }
-
-ul {
-    list-style: none;
+.mainContainer{
+    border : 1px solid orange;
 }
-
-img {
-    max-width: 100%;
-    height: auto;
+.leftnavBarContainer{
+    border : 1pxsolid red;
+}
+.middlenavBarContaine{
+    border : 1px solid green;
+}
+.rightnavBarContainer{
+    border : 1px solid blue;
+}
+.maincontentContainer{
+    border : 1px solid yellow;
+}
+.sidebarContainer{
+    border : 1px solid pink;
+}
+.videomainContainer{
+    border : 1px solid purple;
 }
